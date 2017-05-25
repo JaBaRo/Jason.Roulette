@@ -36,3 +36,9 @@ function includeB(black, randomNumber) {
 }
 
 console.log (includeB([(2),(4),(6),(8),(10),(11),(13),(15),(17),(20),(22),(24),(26),(28),(29),(31),(33),(35)], randomNumber)); 
+
+
+//Odd/Even only works without bringing 0 and 00 into the mix.  will need to revisit once that is in the fold.
+if (randomNumber % 2 === 0) {console.log("It's an Even!  You win $" + oddsOneToOne + "!")}
+
+else {console.log("It's an Odd!  You win $" + oddsOneToOne + "!")}
